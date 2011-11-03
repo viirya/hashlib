@@ -2,7 +2,7 @@ build:
 	node-waf configure build
 
 install:
-	@mkdir -p ~/.node_libraries && cp ./build/default/hashlib.node ~/.node_libraries/hashlib.node
+	@mkdir -p ~/.node_libraries && cp ./build/Release/hashlib.node ~/.node_libraries/hashlib.node
 
 all: build install
 
